@@ -221,6 +221,24 @@ label {
   cursor: not-allowed;
 }
 
+.group-input-cvv {
+  width: 100%;
+
+  font-family: 'als_ekibastuz', 'Arial', Helvetica, sans-serif;
+
+  padding: 6px, 20px, 0px, 20px;
+
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+
+
 .wrapper-input {
   background-color: white;
 
@@ -232,6 +250,7 @@ label {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+
 .pan-block .wrapper-input {
   width: 447px;
   height: 58px;
@@ -317,6 +336,12 @@ div .inline {
   text-align: center;
   font-size: 38px;
   background: none;
+  border: none;
+}
+
+.cvv2-block .group-input-cvv {
+  text-align: center;
+  font-size: 38px;
   border: none;
 }
 
