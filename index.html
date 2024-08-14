@@ -138,18 +138,31 @@
                                 <div class="form-group">
                                     <div class="right-block cvv2-block">
                                         <div class="wrapper-input">
-                                            <input 
+                                            <!-- <input 
                                                 name="cvv2" 
                                                 id="cvv2"
                                                 type="password"
-                                                onkeyup="" 
+                                                onkeyup="checkMaxLength(this, event)" 
                                                 onkeydown="pressEnter(event, this)" 
-                                                onkeypress=""
+                                                onkeypress="return isNumberKey(event)"
                                                 placeholder="***" 
                                                 inputmode="numeric" 
                                                 class="group-input"
                                                 value=""
                                                 pattern_x="${cvv2.pattern}"
+                                                maxlength="3"/> -->
+                                            <input 
+                                                name="cvv2" 
+                                                id="cvv2"
+                                                type="password"
+                                                onkeyup="" 
+                                                onkeydown="" 
+                                                onkeypress=""
+                                                placeholder="***" 
+                                                inputmode="numeric" 
+                                                class="group-input-cvv"
+                                                value=""
+                                                pattern_x=""
                                                 maxlength="3"/>
                                         </div>
                                         <label class="group-label" for="cvv2">CVV/CVC</label>
