@@ -237,8 +237,6 @@ label {
   -moz-box-sizing: border-box;
 }
 
-
-
 .wrapper-input {
   background-color: white;
 
@@ -330,6 +328,20 @@ div .inline {
   margin-bottom: 5px;
   width: 172px;
   height: 58px;
+  /**/
+  text-align: center;
+  font-size: 38px;
+  border: none;
+  /**/
+
+  font-family: 'als_ekibastuz', 'Arial', Helvetica, sans-serif;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .cvv2-block .group-input {
